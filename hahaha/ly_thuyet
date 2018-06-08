@@ -1,0 +1,23 @@
+1. A Boolean value is either true or false. E.g. 4 == (2+2), 4 == (2+3), 1 > 0
+2. A flowchart is a chart that shows how computers logically evaluate our code.
+                                                 |
+                                                 |
+                                                 |
+                                                 |
+                                              Condition
+                                                 |
+                     name = "Dinh Quy" ======== else   ======== name = "Minh Duc"
+                            |                    |                    |
+                            |                    |                     |
+                      print(“Hand some")         |           even_more_handsome = True
+                       webbrowser.open(“https://www.youtube.com/watch?v=04854XqcfCY”)
+3. Nested conditionals are cases when an if/else statement contains another if/else statement inside them. E.g.
+
+n = int(input("Ban bao nhieu tuoi"))
+if n < 12:
+    print("Ban dang hoc cap 1")
+else
+    if n >=12 and n <16:
+        print("Ban dang hoc cap 2")
+    else
+        print("Ban dang hoc cap 3 tro len")
